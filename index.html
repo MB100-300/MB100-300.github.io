@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>PassGen</Title>
+        <meta charset="UTF-8">
+        <link  rel="stylesheet" href="gen.css">
+    </head>
+    <body>
+        <header>
+            <h1>Generatore di Password</h1>
+        </header>
+        <div id="quadratone">
+            <button id="copia" >
+                <img src="copy.png" alt="Iconcina copia" height="30px" width="30px">
+            </button>
+            <p id="password">La tua password apparirà qui</p>
+        </div>
+        <form>
+            <input type="checkbox" id="numeri"> Aggiungi numeri <br>
+            <input type="checkbox" id="maiusc"> Aggiungi maiuscole <br>
+            <input type="checkbox" id="special"> Aggiungi caratteri speciali<br>
+            <input type="number" id="lungh" min="5" max="30" placeholder="12"> Seleziona la lunghezza<br>
+        </form>
+        <button id="bottone">Genera</button>
+
+
+        
+        <script type="text/Javascript" src="gen.js"></script>
+    </body>
+</html>
